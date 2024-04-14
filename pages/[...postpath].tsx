@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://fbsharelinknow.click/` + encodeURI(path as string)
+					`https://zubolli.com/` + encodeURI(path as string)
 				}`,
 			},
 		};
